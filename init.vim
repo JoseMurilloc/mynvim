@@ -6,10 +6,25 @@ Plug 'vim-erlang/vim-erlang-compiler'
 Plug 'vim-erlang/vim-erlang-omnicomplete'
 Plug 'vim-erlang/vim-erlang-tags'
 Plug 'sjl/badwolf'
+Plug 'morhetz/gruvbox'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'sheerun/vim-polyglot'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'roxma/nvim-completion-manager'
+Plug 'w0rp/ale'
+Plug 'cohama/lexima.vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 
-colorscheme dracula
-autocmd BufEnter * colorscheme dracula
+set guifont=VictorMono\ Nerd\ Font:h18
+
+"colorscheme dracula
+"autocmd BufEnter * colorscheme dracula
+"set background=dark
+
+colorscheme gruvbox
 set background=dark
 
 set hidden
